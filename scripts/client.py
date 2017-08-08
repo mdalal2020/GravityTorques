@@ -14,4 +14,6 @@ def gravity_torques_client(name):
         print "Service call failed: %s"%e
 
 if __name__ == "__main__":
-    print(gravity_torques_client('right'))
+    # print(gravity_torques_client('right'))
+    for _ in range(1000):
+        print(gravity_torques_client('right'))
