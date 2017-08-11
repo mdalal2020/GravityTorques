@@ -1,3 +1,4 @@
-string name 
+
 ---
-float32[] torques
+float32[] gravity_torques
+float32[] actual_effort
