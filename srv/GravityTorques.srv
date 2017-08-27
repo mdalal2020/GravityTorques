@@ -1,4 +1,7 @@
 
 ---
 float32[] gravity_torques
-float32[] actual_effort
+float32[] actual_torques
+float32[] hysteresis_torques
+float32[] crosstalk_torques
+float32[] subtracted_torques
